@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sem7Practicals">
-        <activity android:name=".activities.Pract7Activity"></activity>
+        <activity android:name=".activities.Pract7Activity" />
+        <activity android:name=".activities.Pract6Activity" />
         <activity android:name=".activities.Pract5Activity" />
         <activity android:name=".activities.Pract4Activity" />
         <activity android:name=".activities.Pract3SecondActivity" />
