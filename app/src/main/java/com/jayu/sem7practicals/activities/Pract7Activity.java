@@ -25,6 +25,7 @@ public class Pract7Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pract7);
+        setTitle("Practical 7");
 
         edtName = findViewById(R.id.edtName);
         btnSubmit = findViewById(R.id.btnSubmit);

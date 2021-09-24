@@ -11,7 +11,7 @@ import com.jayu.sem7practicals.R;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnPract1,btnPract2Relative,btnPract2Linear,btnPract2Table,btnPract3,btnPract4,btnPract5,btnPract6,btnPract7;
+    Button btnPract1,btnPract2Relative,btnPract2Linear,btnPract2Table,btnPract3,btnPract4,btnPract5,btnPract6,btnPract7,btnPract8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         btnPract5 = findViewById(R.id.btnPract5);
         btnPract6 = findViewById(R.id.btnPract6);
         btnPract7 = findViewById(R.id.btnPract7);
+        btnPract8 = findViewById(R.id.btnPract8);
 
         btnPract1.setOnClickListener(view ->{
             Intent intent = new Intent(MainActivity.this,Pract1Activity.class);
@@ -75,6 +76,11 @@ public class MainActivity extends AppCompatActivity {
 
         btnPract7.setOnClickListener(view ->{
             Intent intent = new Intent(MainActivity.this,Pract7Activity.class);
+            startActivity(intent);
+        });
+
+        btnPract8.setOnClickListener(view ->{
+            Intent intent = new Intent(MainActivity.this,Pract8Activity.class);
             startActivity(intent);
         });
 
